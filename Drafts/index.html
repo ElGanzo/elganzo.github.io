@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Benvenuti nel mio sito!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Sono</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Questo è il mio sito personale, dove potrai conoscere meglio i miei progetti.</p>
+    </section>
+
+    <section id="about">
+        <h2>Chi Sono</h2>
+        <p>Neolaureato in Informatica presso l'Università di
+            Camerino, in questi
+            anni ho acquisito conoscenze basilari del mondo informatico e
+            sviluppato abilità socio-relazionali, di teamworking e problem solving.
+            Sono cresciuto personalmente grazie a delle esperienze, personali e
+            lavorative, avvenute in Europa.
+            Con il passare degli anni ho sviluppato un buon senso pratico,
+            specialmente nel periodo post-laurea.
+            Per il mio futuro professionale ambisco alla figura di data-scientist e
+            nel tempo libero sono un musicista.
+        </p>
+        <!-- Bottone per scaricare il file PDF -->
+        <a href="Lorenzo_Gentili_CV_ita.pdf" download="Lorenzo_Gentili_CV_ita.pdf">
+            <button>Scarica PDF</button>
+        </a>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Progetto 1</h3>
+            <p>Descrizione del progetto 1.</p>
+        </div>
+        <div class="project">
+            <h3>Progetto 2</h3>
+            <p>Descrizione del progetto 2.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contatti</h2>
+        <form action="submit_contact.php" method="POST">
+            <input type="text" name="name" placeholder="Il tuo nome">
+            <input type="email" name="email" placeholder="La tua email">
+            <textarea name="message" placeholder="Il tuo messaggio"></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lorenzo Gentili. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+
+</html>
